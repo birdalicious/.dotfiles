@@ -1,3 +1,4 @@
+#!/bin/bash
 #Install packages
 sudo pacman -S --nocomfirm git
 sudo pacman -S --noconfirm neovim
