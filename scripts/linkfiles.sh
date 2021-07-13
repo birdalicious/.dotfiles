@@ -1,4 +1,9 @@
 #link files
+
+absolute_path="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd $absolute_path
+cd ../
+
 rm ~/.bashrc
 ln .bashrc ~/
 echo ".bashrc linked"
