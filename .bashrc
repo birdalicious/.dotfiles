@@ -6,8 +6,12 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias l='ls --color=auto'
+alias ll='ls --color=auto -l'
+alias la='ls --color=auto -a'
 alias sp='sudo pacman'
-alias st='st &'
+alias vi='nvim'
+alias n='nvim'
 
 source /usr/share/bash-completion/completions/git
 

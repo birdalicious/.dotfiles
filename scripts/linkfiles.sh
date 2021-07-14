@@ -18,6 +18,11 @@ rm ~/.config/nvim/init.vim
 ln ./nvim/init.vim ~/.config/nvim
 echo "nvim config linked"
 
+mkdir ~/.config/rofi
+rm ~/.config/rofi/config.rasi
+ln ./rofi/config.rasi ~/.config/rofi/config.rasi
+echo "rofi config linked"
+
 sudo rm /etc/xdg/picom.conf
 sudo ln -s picom.conf /etc/xdg/
 echo "picom config linked"
