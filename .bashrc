@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias sp='sudo pacman'
+alias st='st &'
 
 source /usr/share/bash-completion/completions/git
 
