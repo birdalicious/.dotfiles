@@ -7,3 +7,4 @@ sudo pacman -S --noconfirm firefox
 sudo pacman -S --noconfirm redshift
 sudo pacman -S --noconfirm keepassxc
 sudo pacman -S --noconfirm rofi
+sudo pacman -S --noconfirm feh
