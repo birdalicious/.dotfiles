@@ -12,6 +12,7 @@ alias la='ls --color=auto -a'
 alias sp='sudo pacman'
 alias vi='nvim'
 alias n='nvim'
+alias gs='git status'
 
 source /usr/share/bash-completion/completions/git
 

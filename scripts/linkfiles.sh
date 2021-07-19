@@ -26,3 +26,9 @@ echo "rofi config linked"
 sudo rm /etc/xdg/picom.conf
 sudo ln -s picom.conf /etc/xdg/
 echo "picom config linked"
+
+sudo rm /usr/share/fzf/key-bindings.bash
+sudo cp ./fzf/key-bindings.bash /usr/share/fzf/key-bindings.bash
+sudo rm /usr/share/fzf/completion.bash
+sudo cp ./fzf/completion.bash /usr/share/fzf/completion.bash
+echo "fzf linked"
