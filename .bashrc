@@ -20,6 +20,7 @@ source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 export FZF_DEFAULT_OPS="--extended"
 
+# Need these so fzf completions work with aliases
 complete -F _fzf_path_completion -o default -o bashdefault ll
 complete -F _fzf_path_completion -o default -o bashdefault la
 complete -F _fzf_path_completion -o default -o bashdefault l
