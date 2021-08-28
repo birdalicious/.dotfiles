@@ -13,6 +13,7 @@ alias sp='sudo pacman'
 alias vi='nvim'
 alias n='nvim'
 alias gs='git status'
+alias gl='git log | n'
 
 source /usr/share/bash-completion/completions/git
 
